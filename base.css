@@ -1,0 +1,86 @@
+/*! Base.css by Matt Jordan - Version 0.1 - git.io/base-css - CC BY-SA */
+
+
+
+/*
+Use the @import only for development. (Keeps code clean)
+Paste normalize.css in for production. (Keeps code fast)
+*/
+@import url("normalize.2.0.1.css");
+
+
+body {
+    padding:24px 18px;
+    width:952px; /* Width + Padding = 1000px (Keep changes relative in media queries below!) */
+    margin:0 auto;
+    font-size:16px;
+    -webkit-text-size-adjust:100%;
+    -webkit-tap-highlight-color:#3c3;
+}
+
+
+/* Keep <hr>s nice-looking */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #ccc;
+    margin:1em 0;
+    padding:0
+}
+
+
+/* Make sure images scale down when needed */
+img {
+    max-width:100%;
+    height:auto;
+    width:auto\9
+}
+
+
+/* Set a select-color */
+::selection {
+background-color:#3c3
+}
+::-moz-selection {
+background-color:#3c3
+}
+img::selection {
+background-color:transparent
+}
+img::-moz-selection {
+background-color:transparent
+}
+
+/*********** Add Custom Styles Below ***********/
+
+
+
+
+
+
+/*********** Add Custom Styles Above ***********/
+
+
+/* Tablet - 768 pixels (with padding from above) */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    body {
+        width:720px;
+    }
+}
+
+
+/* Mobile Landscape view - 480 pixels (with padding from above) */
+@media only screen and (min-width:480px) and (max-width:767px) {
+    body {
+        width:432px
+    }
+}
+
+
+/* Mobile Portrait view - 320 pixels (with padding from above) */
+@media only screen and (max-width:479px) {
+    body {
+        width:272px
+    }
+}
