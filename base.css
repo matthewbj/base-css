@@ -11,7 +11,7 @@ Paste normalize.css in for production. (Keeps code fast)
 
 body {
     padding:24px 18px;
-    width:952px; /* Width + Padding = 988px (Keep changes relative in media queries below!) */
+    width:964px; /* Width + Padding = 1000px (Keep changes relative in media queries below!) */
     margin:0 auto;
     font-size:16px;
     -webkit-text-size-adjust:100%;
@@ -19,14 +19,14 @@ body {
 }
 
 
-/* Keep <hr>s nice-looking */
+/* Keep <hr> tags looking nice */
 hr {
     display:block;
     height:1px;
     border:0;
     border-top:1px solid #ccc;
     margin:1em 0;
-    padding:0
+    padding:0;
 }
 
 
@@ -38,19 +38,21 @@ img {
 }
 
 
-/* Set a select-color */
+/* Set a select/highlite-color */
 ::selection {
-background-color:#3c3
+    background-color:#ccc
 }
 ::-moz-selection {
-background-color:#3c3
+    background-color:#ccc
 }
 img::selection {
-background-color:transparent
+    background-color:transparent
 }
 img::-moz-selection {
-background-color:transparent
+    background-color:transparent
 }
+
+
 
 /*********** Add Custom Styles Below ***********/
 
@@ -62,25 +64,27 @@ background-color:transparent
 /*********** Add Custom Styles Above ***********/
 
 
-/* Tablet - 756 pixels (with padding from above) */
+
+
+/* Tablet - 768 pixels (with padding from above) */
 @media only screen and (min-width:768px) and (max-width:991px) {
     body {
-        width:720px;
+        width:732px;
     }
 }
 
 
-/* Mobile Landscape view - 468 pixels (with padding from above) */
+/* Mobile Landscape view - 480 pixels (with padding from above) */
 @media only screen and (min-width:480px) and (max-width:767px) {
     body {
-        width:432px
+        width:444px;
     }
 }
 
 
-/* Mobile Portrait view - 308 pixels (with padding from above) */
+/* Mobile Portrait view - 320 pixels (with padding from above) */
 @media only screen and (max-width:479px) {
     body {
-        width:272px
+        width:284px;
     }
 }
