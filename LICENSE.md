@@ -1,10 +1,10 @@
 ### This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 License!
 
-The below line of text must be included with all copies of base.css, either in part or in whole.
+The below line of text MUST be included with all copies of base.css:
 
-__Attribution tag:__ Base.css by Matt Jordan - git.io/base-css - CC BY-SA
+Base.css by Matt Jordan - git.io/base-css - CC BY-SA
 
-To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+To view this license, visit http://creativecommons.org/licenses/by-sa/3.0/
 
 ---
 
